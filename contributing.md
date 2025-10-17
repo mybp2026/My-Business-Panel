@@ -107,21 +107,21 @@ feature → development → staging → master
 
 ```bash
 # 1. Crear tu rama personal
-git checkout -b dev/alex
-git push -u origin dev/alex
+git checkout -b dev/david
+git push -u origin dev/david
 
 # 2. Crear una subrama de feature
-git checkout -b dev/alex/feature/login
+git checkout -b dev/david/feature/login
 
 # 3. Desarrollar y hacer commits
 git add .
 git commit -m "feat(auth): agregar endpoint de login"
-git push origin dev/alex/feature/login
+git push origin dev/david/feature/login
 
 # 4. Crear un Pull Request → development
 # 5. Esperar aprobación y merge
 # 6. Actualizar tu rama personal después del merge
-git checkout dev/alex
+git checkout dev/david
 git fetch origin
 git rebase origin/development
 
