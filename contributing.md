@@ -95,7 +95,7 @@ dev/david → development
 
 Flujo de integración:
 
-feature → development → staging → master
+dev/tu-nombre → development → staging → master
 
 - Merge a development: integración de código validado.
 - Merge a staging: tras pruebas funcionales exitosas.
